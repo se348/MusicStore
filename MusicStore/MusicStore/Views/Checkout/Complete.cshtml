@@ -1,0 +1,16 @@
+﻿@model MusicStore.Models.Album
+
+@{
+    ViewData["Title"] = "Album";
+}
+
+
+<div>
+    <h2>Checkout Complete</h2>
+    <h4>
+        Confirmation   
+    </h4>
+    <hr />
+    <p>Thank you for your order. Your order number is @ViewData["OrderNr."] How about shopping for some music in our <a asp-controller="Home" asp-action="Index">Music store </a></p>   
+</div>
+
